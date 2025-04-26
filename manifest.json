@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Gitmeow: GitHub Cleaner",
+    "name": "Gitmeow",
     "version": "0.2.0",
-    "description": "Removes GitHub Copilot ads and cleans up the GitHub interface.",
+    "description": "Gitmeow",
     "permissions": [
       "storage"
     ],
