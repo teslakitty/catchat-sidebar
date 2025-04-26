@@ -1,20 +1,23 @@
 {
   "manifest_version": 3,
-  "name": "CatChat Sidebar",
+  "name": "CatChat Side Panel",
   "version": "1.0",
-  "description": "A sidebar with CatChat!",
+  "description": "A side panel with CatChat!",
   "permissions": [
-    "scripting",
-    "activeTab"
+    "sidePanel"
   ],
-  "action": {
-    "default_popup": ""
+  "side_panel": {
+    "default_path": "sidepanel.html"
   },
   "background": {
     "service_worker": "background.js"
   },
-  "sidebar_action": {
-    "default_panel": "sidebar.html",
-    "default_title": "CatChat"
+  "action": {
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    },
+    "default_title": "Open CatChat Side Panel"
   }
 }
