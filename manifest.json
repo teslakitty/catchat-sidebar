@@ -4,7 +4,9 @@
   "version": "1.0",
   "description": "A side panel with CatChat!",
   "permissions": [
-    "sidePanel"
+    "sidePanel",
+    "camera",
+    "microphone"
   ],
   "side_panel": {
     "default_path": "sidepanel.html"
